@@ -8,20 +8,15 @@ export default function Footer() {
 
           <h2>VAYUNE</h2>
 
-          <p>
-            Architecture of Air
-          </p>
+          <p>Architecture of Air</p>
 
         </div>
 
         <div className="footer-links">
 
           <a href="#">Products</a>
-
           <a href="#">Technology</a>
-
           <a href="#">Projects</a>
-
           <a href="#">Philosophy</a>
 
         </div>
@@ -32,13 +27,9 @@ export default function Footer() {
             contact@vayune.in
           </a>
 
-          <a href="#">
-            LinkedIn
-          </a>
+          <a href="#">LinkedIn</a>
 
-          <a href="#">
-            Instagram
-          </a>
+          <a href="#">Instagram</a>
 
         </div>
 
@@ -46,13 +37,9 @@ export default function Footer() {
 
       <div className="footer-bottom">
 
-        <span>
-          © 2026 VAYUNE
-        </span>
+        <span>© 2026 VAYUNE</span>
 
-        <span>
-          Architecture of Air
-        </span>
+        <span>Architecture of Air</span>
 
       </div>
 

@@ -1,21 +1,20 @@
 export default function VayuneMoment() {
   return (
-
     <section className="moment">
 
-      <div className="moment-card">
+      <div className="moment-center">
 
-        <span>
-          THE VAYUNE MOMENT
-        </span>
+        <div className="aqi-number">
+          11
+        </div>
 
-        <h1>11</h1>
+        <div className="aqi-label">
+          AQI
+        </div>
 
-        <h3>AQI</h3>
-
-        <p>
+        <div className="aqi-quality">
           Himalayan Foothills Quality
-        </p>
+        </div>
 
       </div>
 

@@ -1,6 +1,6 @@
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/home/Hero";
-import HiddenLuxury from "../components/home/HiddenLuxury";
+import DetailSection from "../components/home/DetailSection";
 import VayuneMoment from "../components/home/VayuneMoment";
 import Reality from "../components/home/Reality";
 import Evidence from "../components/home/Evidence";
@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <HiddenLuxury />
+      <DetailSection />
       <VayuneMoment />
       <Reality />
       <Evidence />

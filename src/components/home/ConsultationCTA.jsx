@@ -3,7 +3,8 @@ export default function ConsultationCTA() {
     <section className="cta">
 
       <h2>
-        Ready to breathe differently?
+        The finest homes deserve
+        the finest atmosphere.
       </h2>
 
       <p>
