@@ -1,0 +1,58 @@
+.navbar{
+
+ position:fixed;
+
+ top:0;
+ left:0;
+
+ width:100%;
+
+ padding:28px 60px;
+
+ display:flex;
+
+ justify-content:space-between;
+
+ align-items:center;
+
+ z-index:1000;
+
+ backdrop-filter:blur(20px);
+
+ background:
+ rgba(0,0,0,.25);
+}
+
+.logo{
+
+ font-family:
+ "Cormorant Garamond";
+
+ font-size:2rem;
+
+ letter-spacing:6px;
+}
+
+nav{
+
+ display:flex;
+
+ gap:40px;
+}
+
+nav a{
+
+ font-size:.95rem;
+
+ color:#ddd;
+}
+
+.consult-btn{
+
+ border:1px solid
+ var(--gold);
+
+ padding:12px 20px;
+
+ color:var(--gold);
+}

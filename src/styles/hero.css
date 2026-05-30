@@ -1,0 +1,98 @@
+.hero{
+
+ height:100vh;
+
+ background-size:cover;
+
+ background-position:center;
+
+ position:relative;
+}
+
+.overlay{
+
+ position:absolute;
+
+ inset:0;
+
+ background:
+ rgba(0,0,0,.55);
+}
+
+.hero-content{
+
+ position:absolute;
+
+ left:8%;
+
+ top:50%;
+
+ transform:
+ translateY(-50%);
+
+ z-index:2;
+
+ max-width:650px;
+}
+
+.eyebrow{
+
+ color:var(--gold);
+
+ letter-spacing:5px;
+
+ font-size:.85rem;
+}
+
+.hero h1{
+
+ font-family:
+ "Cormorant Garamond";
+
+ font-size:
+ clamp(
+ 4rem,
+ 5vw,
+ 5.8rem
+ );
+
+ font-weight:500;
+
+ line-height:.9;
+}
+
+.hero p{
+
+ color:#ddd;
+
+ font-size:1.15rem;
+
+ margin-bottom:40px;
+}
+
+.hero button{
+
+ background:transparent;
+
+ color:var(--gold);
+
+ border:1px solid
+ var(--gold);
+
+ padding:
+ 16px 28px;
+
+ letter-spacing:2px;
+
+ text-transform:uppercase;
+
+ transition:.3s;
+}
+
+.hero button:hover{
+
+ background:
+ var(--gold);
+
+ color:black;
+}
