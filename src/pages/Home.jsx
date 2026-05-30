@@ -1,5 +1,6 @@
 import Navbar from "../components/layout/Navbar";
 import Hero from "../components/home/Hero";
+import AtmosphereSection from "../components/home/AtmosphereSection";
 import DetailSection from "../components/home/DetailSection";
 import VayuneMoment from "../components/home/VayuneMoment";
 import Reality from "../components/home/Reality";
@@ -13,8 +14,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <DetailSection />
-      <VayuneMoment />
+      <AtmosphereSection />
       <Reality />
       <Evidence />
       <ExceptionalHomes />
